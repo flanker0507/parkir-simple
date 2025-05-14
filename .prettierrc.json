@@ -1,0 +1,11 @@
+{
+  "printWidth": 80,             // Panjang maksimum satu baris
+  "tabWidth": 2,                // Jumlah spasi per tab
+  "useTabs": false,             // Gunakan spasi alih-alih tab
+  "semi": true,                 // Tambahkan titik koma di akhir pernyataan
+  "singleQuote": true,          // Gunakan tanda kutip tunggal
+  "trailingComma": "es5",      // Tambahkan koma di akhir objek/array ES5
+  "bracketSpacing": true,       // Spasi dalam kurung kurawal { a: b }
+  "arrowParens": "avoid",       // Hindari tanda kurung untuk panah fungsi jika argumennya satu
+  "endOfLine": "lf"             // Gunakan line ending LF (Linux-style)
+}

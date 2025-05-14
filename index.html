@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+    <title>Simple Parkir</title>
+</head>
+<body>
+<div class="container">
+  <h1>Form Kendaraan</h1>
+  <form action="" id="formKendaraan">
+    <label for="nopol">Nomor Polisi</label>
+    <input type="text" id="nopol" required>
+
+    <label for="warna">Warna Kendaraan</label>
+    <input type="text" id="warna" required>
+
+    <label for="jenis">Jenis Kenderaan</label>
+    <select id="jenis" required>
+      <option value="">-- Pilih Jenis --</option>
+      <option value="motor">Motor</option>
+      <option value="mobil">Mobil</option>
+    </select>
+
+    <label for="lamaParkir">Lama Parkir (jam)</label>
+    <input type="number" id="lamaParkir" required>
+
+    <button type="submit">Hitung Biaya</button>
+  </form>
+
+  <div id="hasil"></div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
