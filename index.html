@@ -10,13 +10,24 @@
 </head>
 <body>
 <div class="container">
-  <h1>Form Kendaraan</h1>
+  <h1>Parkee</h1>
   <form action="" id="formKendaraan">
+
+    <div class="input-box">
+
     <label for="nopol">Nomor Polisi</label>
     <input type="text" id="nopol" required>
+    </div>
+
+
+    <div class="input-box">
 
     <label for="warna">Warna Kendaraan</label>
     <input type="text" id="warna" required>
+    </div>
+
+
+    <div class="input-box">
 
     <label for="jenis">Jenis Kenderaan</label>
     <select id="jenis" required>
@@ -24,9 +35,15 @@
       <option value="motor">Motor</option>
       <option value="mobil">Mobil</option>
     </select>
+    </div>
+
+
+    <div class="input-box">
 
     <label for="lamaParkir">Lama Parkir (jam)</label>
     <input type="number" id="lamaParkir" required>
+    </div>
+
 
     <button type="submit">Hitung Biaya</button>
   </form>
